@@ -1,0 +1,40 @@
+package Recursion;
+
+public class SimpleRecursion {
+
+    static void func(int n)
+    {
+        if(n==0)
+        {
+            return;
+        }
+        System.out.println(n);
+        func(n-1);
+        System.out.println(n);
+    }
+
+/*    static void func(int n)
+    {
+        if(n==0)
+        {
+            return;
+        }
+        func(n-1);
+        System.out.println(n);
+        func(n-1);
+    }*/
+
+/*    static void func(int n)
+    {
+        if(n==0)
+        {
+            return;
+        }
+        func(n/2);
+        System.out.println(n%2);
+    }*/
+
+    public static void main(String[] args) {
+        func(3);
+    }
+}

@@ -13,5 +13,6 @@ public class MaxDifference {
             res = Math.max(diff,res);
             minValue = Math.min(a[i],minValue);
         }
+        System.out.print(res);
     }
 }
